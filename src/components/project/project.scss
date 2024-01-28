@@ -1,0 +1,63 @@
+/* Custom CSS for the dashboard */
+
+.project {
+  width: 100%;
+  display: flex;
+}
+.container{
+  
+  min-height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.dashboard-section {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.image-upload .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.image-upload .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.project-image {
+  width: 100px;
+  height: 100px;
+}
+
+.project-image-small {
+  width: 50px;
+  height: 50px;
+}
+
+.project-description {
+  font-size: 0.9rem;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-success,
+.btn-danger {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success:hover,
+.btn-danger:hover {
+  filter: brightness(90%);
+}
